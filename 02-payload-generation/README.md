@@ -103,4 +103,35 @@ This entire section is designed to:
 ✔ Show attack behavior in Splunk
 
 Payloads are only used for research and learning inside a safe, isolated lab.
+#
+
+# Appendix: : Visual Evidence For Payloads and Metasploit C2 Call Back
+
+# Invoices.docx.exe Payloads
+
+![invoices-payloads](https://github.com/user-attachments/assets/df90bd05-32dd-4601-92ff-bac0612c1a07)
+![invoices-payloads2](https://github.com/user-attachments/assets/5d9cb96c-f3fc-49b0-8460-c24e6609dac4)
+
+# Metasploit C2
+
+![metasploit-c2](https://github.com/user-attachments/assets/b796c649-411f-46d6-ba7f-61e476eb075d)
+![metasploit-c21](https://github.com/user-attachments/assets/c21507db-9516-43bb-ad92-eeb0bfe5584c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
