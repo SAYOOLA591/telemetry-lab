@@ -44,7 +44,7 @@ Lateral movement attempts
 And have every log source correlated together in Splunk.
 #
 
-# Apendix: : Visual Evidence For Network Setup
+# Appendix: : Visual Evidence For Network Setup
 
 ### Kali Network Setting
 
