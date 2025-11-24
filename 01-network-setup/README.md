@@ -42,4 +42,35 @@ IDS signature hits
 Lateral movement attempts
 
 And have every log source correlated together in Splunk.
+#
+
+# Apendix: : Visual Evidence For Network Setup
+
+A. ![kali-setting](https://github.com/user-attachments/assets/5f074f76-f0de-4851-b693-5ebf3a6da879)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
