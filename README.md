@@ -1,4 +1,4 @@
-# telemetry-lab
+# Telemetry-lab
 
 # Introduction
 
