@@ -19,13 +19,17 @@ This gives me the full picture of what happens, how logs appear, and how Splunk 
 
 I installed Atomic Red Team using PowerShell:
 
-``Set-ExecutionPolicy Bypass -Scope Process -Force
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force
 iwr https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1 -UseBasicParsing | iex
-Install-AtomicRedTeam -GetAtomics``
+Install-AtomicRedTeam -GetAtomics
+```
 
 This downloaded the full Atomic test library to:
 
-``C:\AtomicRedTeam``
+```
+C:\AtomicRedTeam
+```
 
 ### Running Atomic Tests
 
@@ -40,7 +44,9 @@ I executed specific Atomic tests to generate telemetry for:
 
 Example test:
 
-``Invoke-AtomicTest T1059.001``
+```
+Invoke-AtomicTest T1059.001
+```
 
 This produces Sysmon events under:
 
@@ -127,6 +133,44 @@ Running these tests provided:
 - ✔ Stronger understanding of how each sensor reacts
 
 Atomic Red Team balanced the earlier “free-form” attacks by providing high-signal, repeatable scenarios tailored for SOC analysis and practice.
+#
+
+# Appendix: : Visual Evidence For AtomicRedTeam
+
+![atomic-redteam](https://github.com/user-attachments/assets/0aee74cd-5f93-480d-bc6d-da8f68fcdd54)
+
+![atomic-redteam1](https://github.com/user-attachments/assets/338f0e6b-76af-470d-bc5b-28811c2c9bc0)
+
+![atomic-redteam2](https://github.com/user-attachments/assets/456a33a5-6022-4d27-a5ad-0b42bf50002e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
