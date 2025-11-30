@@ -109,15 +109,15 @@ Payloads are only used for research and learning inside a safe, isolated lab.
 
 # Invoices.docx.exe Payloads
 
-![invoices-payloads](https://github.com/user-attachments/assets/df90bd05-32dd-4601-92ff-bac0612c1a07)
+![invoices-payloads](https://github.com/user-attachments/assets/65d49c03-d3b1-475f-9b5a-7648d34cef98)
 
 ![invoices-payloads2](https://github.com/user-attachments/assets/5d9cb96c-f3fc-49b0-8460-c24e6609dac4)
 
 # Metasploit C2
 
-![metasploit-c2](https://github.com/user-attachments/assets/b796c649-411f-46d6-ba7f-61e476eb075d)
+![metasploit-c2](https://github.com/user-attachments/assets/4d36ee52-94a1-475a-a487-ed9c7cb32d96)
 
-![metasploit-c21](https://github.com/user-attachments/assets/c21507db-9516-43bb-ad92-eeb0bfe5584c)
+![metasploit-c21](https://github.com/user-attachments/assets/9c95379e-d500-457a-a4f4-44131715eb69)
 
 
 
