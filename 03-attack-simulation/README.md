@@ -113,13 +113,13 @@ This simulation is the foundation for the next section: running structured Atomi
 
 ### Metasploit
 
-![meta-image](https://github.com/user-attachments/assets/5170ad62-bdd0-471c-8544-d9b735a17d48)
+![meta-image](https://github.com/user-attachments/assets/f7e5a135-adff-46ea-bcde-2113c9152922)
 
-![metasploit-image](https://github.com/user-attachments/assets/f03bb4de-ca16-45a4-bd69-a199583d0eb0)
+![metasploit-image](https://github.com/user-attachments/assets/2e12a24f-ad7b-4854-ba0b-86f9e5c688c9)
 
 ### NMAP Scan
 
-![nmap-scan](https://github.com/user-attachments/assets/be6c73d2-d6ec-42e7-8ca6-6404ea4efe8f)
+![nmap-scan](https://github.com/user-attachments/assets/2a98511f-7f62-4f90-b4c7-fbc22fadf082)
 
 ![nmap-scan1](https://github.com/user-attachments/assets/d2a7aef6-b26f-4dfb-9e8f-e01cdfd211c4)
 
