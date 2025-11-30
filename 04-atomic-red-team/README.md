@@ -137,9 +137,9 @@ Atomic Red Team balanced the earlier “free-form” attacks by providing high-s
 
 # Appendix: : Visual Evidence For AtomicRedTeam
 
-![atomic-redteam](https://github.com/user-attachments/assets/0aee74cd-5f93-480d-bc6d-da8f68fcdd54)
+![atomic-redteam](https://github.com/user-attachments/assets/138f6241-3e01-4532-950f-761959b1d9ed)
 
-![atomic-redteam1](https://github.com/user-attachments/assets/338f0e6b-76af-470d-bc5b-28811c2c9bc0)
+![atomic-redteam1](https://github.com/user-attachments/assets/d10a7373-7d93-4016-bbdc-d4c6aa9e796a)
 
 ![atomic-redteam2](https://github.com/user-attachments/assets/456a33a5-6022-4d27-a5ad-0b42bf50002e)
 
