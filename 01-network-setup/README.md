@@ -48,11 +48,11 @@ And have every log source correlated together in Splunk.
 
 ### Kali Network Setting
 
-![kali-setting](https://github.com/user-attachments/assets/5f074f76-f0de-4851-b693-5ebf3a6da879)
+![kali-setting](https://github.com/user-attachments/assets/4a2d1d4b-6fc8-40af-9a66-460678dc5161)
 
-![kali-ipv4](https://github.com/user-attachments/assets/f33da785-8e1e-49f4-a110-4019785f551a)
+![kali-ipv4](https://github.com/user-attachments/assets/009cc589-f996-412e-a689-4ebc2113edf3)
 
-![kali-ipv4-confirmation](https://github.com/user-attachments/assets/6eb30485-2269-4aca-a289-daaf062cdc41)
+![kali-ipv4-confirmation](https://github.com/user-attachments/assets/8dec8a84-8df9-416c-bb47-79a8b2ec5647)
 
 
 
