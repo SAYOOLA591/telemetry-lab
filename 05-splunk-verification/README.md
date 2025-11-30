@@ -50,17 +50,17 @@ Once everything was visible in Splunk, the lab was ready for building use cases 
 
 # Appendix: : Visual Evidence For Detection Engineering
 
-![invoices-creation](https://github.com/user-attachments/assets/2c19d94d-8cfa-489f-8d7b-0e1481b37fa6)
+![invoices-creation](https://github.com/user-attachments/assets/b0ac5bba-b025-4dd8-9301-61f2a59bbf73)
 
-![metasploit-C2](https://github.com/user-attachments/assets/4e95e03e-819b-46e4-8ba7-a8ff24c8b040)
+![metasploit-C2](https://github.com/user-attachments/assets/879a1a4f-313d-41cc-80fc-f89aa2f046be)
 
-![nmap-image](https://github.com/user-attachments/assets/7468f2e5-9cca-4311-b341-70e47391e059)
+![nmap-image](https://github.com/user-attachments/assets/94728fff-76f4-41c9-a7c8-a7f4326e1eaf)
 
-![newlocaluser-image](https://github.com/user-attachments/assets/f264bb5f-a2e2-4d03-8b07-6222f55d7599)
+![newlocaluser-image](https://github.com/user-attachments/assets/4af2590f-ccab-49aa-aa1f-4239c9e4e46d)
 
-![registryrun-image](https://github.com/user-attachments/assets/3fac6047-0584-4673-ac1f-e2bc88f3d992)
+![registryrun-image](https://github.com/user-attachments/assets/390f4174-e522-48b8-9072-faf6581a787c)
 
-![registrykey-image](https://github.com/user-attachments/assets/25eff9ca-cf0c-4471-ab4b-fe11dbea0193)
+![registrykey-image](https://github.com/user-attachments/assets/2fa86fc3-4801-4443-82a6-351e94a3a00d)
 
 
 
