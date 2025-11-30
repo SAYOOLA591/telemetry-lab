@@ -111,7 +111,7 @@ Payloads are only used for research and learning inside a safe, isolated lab.
 
 ![invoices-payloads](https://github.com/user-attachments/assets/65d49c03-d3b1-475f-9b5a-7648d34cef98)
 
-![invoices-payloads2](https://github.com/user-attachments/assets/5d9cb96c-f3fc-49b0-8460-c24e6609dac4)
+![invoices-payloads2](https://github.com/user-attachments/assets/8d91b54f-be04-4233-8704-79e0f1db3e76)
 
 # Metasploit C2
 
