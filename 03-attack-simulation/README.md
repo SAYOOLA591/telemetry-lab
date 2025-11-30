@@ -121,7 +121,6 @@ This simulation is the foundation for the next section: running structured Atomi
 
 ![nmap-scan](https://github.com/user-attachments/assets/2a98511f-7f62-4f90-b4c7-fbc22fadf082)
 
-![nmap-scan1](https://github.com/user-attachments/assets/d2a7aef6-b26f-4dfb-9e8f-e01cdfd211c4)
 
 
 
